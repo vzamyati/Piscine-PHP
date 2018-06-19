@@ -1,0 +1,104 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    doft.css                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vzamyati <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/06/18 19:48:04 by vzamyati          #+#    #+#              #
+#    Updated: 2018/06/18 19:48:06 by vzamyati         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+body {background-color: #505050;}
+
+header, nav, section, aside, .green {
+	background-color: #909090;
+	box-shadow: 15px 15px 10px #252424;
+	border: 10px solid #909090;
+	border-radius: 15px;
+}
+
+header {margin-top: 25px;
+	height: 125px;
+	width: 1550px;
+}
+
+nav {float: left;
+	margin-top: 25px;
+	margin-left: 45px;
+	height: 425px;
+	width: 135px;
+}
+section {float: left;
+	margin-top: 25px;
+	margin-left: 45px;
+}
+aside {float: left;
+	margin-top: 25px;
+	margin-left: 45px;
+	width: 145px;
+	height: 420px;
+}
+
+nav img, aside img, .brick {margin: auto;
+	margin-top: 10px;
+	display: block;
+	width: 70px;
+}
+
+.webpage {margin: 0 auto;
+width: 1525px;}
+
+.brick {background-image: url("resources/brick.jpg");
+	width: 135px;
+	height: 75px;
+}
+
+img[title="doft"] {float: left;
+	width: 455px;
+}
+img[title="search"] {position: relative;
+	left: 820px;
+	top: 10px;
+}
+img[title="Start from the beginning"] {float: right;
+	width: 25px;
+}
+img[title="Disconnect"] {position: relative;
+	left: 815px;
+	bottom: 20px;
+}
+img[title="Look"] {border: solid red 5px;
+	border-radius: 10px;
+}
+
+.green {background-color: #88ff89;
+	border: 1px solid black;
+	position: absolute;
+	width: 490px;
+	height: 135px;
+	top: 710px;
+	padding: 20px;
+	padding-top: 15px;
+	font-family: Verdana;
+}
+
+strong {font-family: Georgia;
+	font-weight: lighter;
+	font-size: 185%;
+}
+
+.shadow {text-shadow: 5px 5px 5px rgba(255, 0, 0, 1);}
+
+.button {background: linear-gradient(#f4eff3, #dcdcdc);
+	letter-spacing: 0.3px;
+	height: 20px;
+	margin-left: 5px;
+	border-radius: 3px;
+	border: 1px solid #a8a4a5;
+}
+
+input[type="text"] {width: 365px;
+	border-top: 2px solid #9a9b9c;
+}

@@ -1,0 +1,53 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    menu.css                                           :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vzamyati <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/06/18 22:34:51 by vzamyati          #+#    #+#              #
+#    Updated: 2018/06/18 22:34:52 by vzamyati         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+.menu{margin: auto;
+	width: 100px;}
+
+.drop{position: relative;
+display: inline-block;}
+
+.content{position: relative;
+	display: none;
+	background: moccasin;
+	border: 1px solid black;
+	min-width: 400px;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);}
+.button {
+	cursor: pointer;
+	background: moccasin;
+	border: 1px solid black;
+	width: 200px;
+	box-shadow: 0px 10px 20px 0px rgba(0,0,0,0.2);
+	font-size: 20px;
+	padding: 20px;
+	letter-spacing: 2px;
+	margin-left: 100px;
+}
+.content a {
+	font-family: "Verdana";
+	display: block;
+	color: black;
+	text-transform: uppercase;
+	padding: 15px 20px;
+	font-size: 20px;
+	text-decoration: none;
+	-webkit-font-smoothing: antialiased;
+}
+.drop:hover .content {
+	display: block;
+	text-align: center;
+}
+a:hover {
+	background: aliceblue;
+	border: 1px solid black;
+}

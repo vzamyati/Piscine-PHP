@@ -1,0 +1,70 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    responsive.css                                     :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: vzamyati <marvin@42.fr>                    +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2018/06/18 22:10:12 by vzamyati          #+#    #+#              #
+#    Updated: 2018/06/18 22:10:13 by vzamyati         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+body {font-size: 1.4vw;}
+
+table {width: 100%;
+	table-layout: fixed;
+	border-spacing: 0.3vw;
+	font-size: 1.4vw;}
+
+div {text-align: center;}
+
+.responsive {width: 35%;
+	height: auto;}
+
+h1 {font-size: 3vw;
+	text-align: center;}
+
+h2 {font-size: 2vw;
+	text-align: center;
+	margin: 0px;}
+
+tr {font-size: 1.4vw;
+	min-width: auto;}
+
+td {font-size: 1.4vw;
+	min-width: auto;}
+
+td.non-metal {background: gray;}
+
+td.noble-gas {background: dodgerblue;}
+
+td.alkali-metal {background: orange;}
+
+td.alkaline-earth-metal {background: firebrick;}
+
+td.metalloid {background: yellowgreen;}
+
+td.halogen{background: darkturquoise;}
+
+td.metal{background: forestgreen;}
+
+td.transition-metal{background: gold;}
+
+td.lanthanide {background: mediumorchid;}
+
+td.actinide {background: plum;}
+
+td.text {background: white;}
+
+p {font-size: 0.8vw;
+	margin: 10px;}
+
+p.name{text-align: center;
+	margin: 0px;}
+
+p.mass{text-align: right;
+	margin: 0px;}
+	
+p.num{text-align: left;
+	margin: 0px;}
