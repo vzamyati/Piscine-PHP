@@ -1,44 +1,44 @@
-<!-- *********************************************************************** -->
-<!--                                                                         -->
-<!--                                                      :::      ::::::::  -->
-<!-- basics.html                                        :+:      :+:    :+:  -->
-<!--                                                  +:+ +:+         +:+    -->
-<!-- By: vzamyati <marvin@42.fr>                    +#+  +:+       +#+       -->
-<!--                                              +#+#+#+#+#+   +#+          -->
-<!-- Created: 2018/06/18 14:42:47 by vzamyati          #+#    #+#            -->
-<!-- Updated: 2018/06/18 14:52:26 by vzamyati         ###   ########.fr      -->
-<!--                                                                         -->
-<!-- *********************************************************************** -->
-
 <!DOCTYPE html>
 <html>
 <head>
 	<title>Basics</title>
-	<style type="text/css">
-		body {background-color: pink;}
-		h1 {color: white;
-			text-align: center;}
-		.shops {float: left;
-			padding: 25px;}
-		hr {clear: both}
-		.copyright {text-align: right;
-			font-style: italic;
-			font-family: monospace;
-		}
+<style>
+* {
+		box-sizing: border-box;
+}
+
+.img-container {
+		float: left;
+		width: 33.33%;
+		margin-left: 180px;
+}
+
+.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
+}
+
+p {
+	text-align:right;
+	font-style: italic;
+	font-family: monospace;
+}
 </style>
 </head>
-<body>
-	<h1>EX0⃣0⃣ 你好</h1>
-	<div class="shops">
-		<img src="http://media.corporate-ir.net/media_files/IROL/17/176060/img/logos/amazon_logo_RGB.jpg" alt="Amazon" width="300" height="150">
-		<p><a href="https://www.finder.com/redirect/us/deals/amazon-us-secure.html">Amazon</a></p>
+<body style="background-color:pink; text-align:center;">
+	<h1 style="color:white;">Basics - volùme 2</h1>
+	<div class="clearfix">
+		<div class="img-container">
+		<img src="https://blog.agilebits.com/wp-content/uploads/2015/06/ebay.png" alt="ebay" width="100%" style="float:center;">
+		<a href="https://www.ebay.com/">Ebay</a>
+		</div>
+		<div class="img-container">
+		<img src="https://images-eu.ssl-images-amazon.com/images/I/413RHWsREDL.png" alt="aliexpress" width="100%" style="float:center;">
+		<a href="https://best.aliexpress.com/">Aliexpress</a>
+		</div>
 	</div>
-	<div class="shops">
-		<img src="http://images.globes.co.il/Images/NewGlobes/big_image/2014/eBay_logo-575.jpg" alt="eBay" width="300" height="150">
-		<p><a href="https://www.ebay.com/">eBay</a></p>
-	</div>
-	<hr />
-	<p class="copyright">©vzamyati 2018</p>
-</body> 
+	<hr>
+	<p>© vzamyati 2018</p>
+</body>
 </html>
-
