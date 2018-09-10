@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Basics</title>
+<style>
+* {
+		box-sizing: border-box;
+}
+
+.img-container {
+		float: left;
+		width: 33.33%;
+		margin-left: 180px;
+}
+
+.clearfix::after {
+		content: "";
+		clear: both;
+		display: table;
+}
+
+p {
+	text-align:right;
+	font-style: italic;
+	font-family: monospace;
+}
+</style>
+</head>
+<body style="background-color:pink; text-align:center;">
+	<h1 style="color:white;">Basics - volùme 2</h1>
+	<div class="clearfix">
+		<div class="img-container">
+		<img src="https://blog.agilebits.com/wp-content/uploads/2015/06/ebay.png" alt="ebay" width="100%" style="float:center;">
+		<a href="https://www.ebay.com/">Ebay</a>
+		</div>
+		<div class="img-container">
+		<img src="https://images-eu.ssl-images-amazon.com/images/I/413RHWsREDL.png" alt="aliexpress" width="100%" style="float:center;">
+		<a href="https://best.aliexpress.com/">Aliexpress</a>
+		</div>
+	</div>
+	<hr>
+	<p>© vzamyati 2018</p>
+</body>
+</html>
