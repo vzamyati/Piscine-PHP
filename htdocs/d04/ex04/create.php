@@ -10,6 +10,8 @@
 		file_put_contents('../private/passwd', serialize($user));
 		echo "OK\n";
 	}
-	else
+	else {
+		header('Location: index.html');
 		echo "ERROR\n";
+	}
 ?>
