@@ -1,20 +1,20 @@
 @font-face {
 	font-family: "Cinzel-Regular";
-	src: url("../fonts/Cinzel/Cinzel-Regular.eot?#iefix")format("embedded-opentype"),
-	url("fonts/Cinzel/Cinzel-Regular.otf") format("truetype");
-	font-style: normal;
-	font-weight: normal;
-}
-/*
-@font-face {
-	font-family: "OpenSans-Bold";
-	src: url("fonts/OpenSans/OpenSans-Bold.eot?#iefix")format("embedded-opentype"),
-	url("fonts/OpenSans/OpenSans-Bold.ttf") format("truetype");
+	src: url("../fonts/cinzel/Cinzel-Regular.eot?#iefix")format("embedded-opentype"),
+	url("fonts/cinzel/Cinzel-Regular.otf") format("truetype");
 	font-style: normal;
 	font-weight: normal;
 }
 
 @font-face {
+	font-family: "Cinzel-Black";
+	src: url("../fonts/cinzel/Cinzel-Black.eot?#iefix")format("embedded-opentype"),
+	url("fonts/cinzel/Cinzel-Black.otf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+/*@font-face {
 	font-family: "OpenSans-SemiBold";
 	src: url("fonts/OpenSans/OpenSans-SemiBold.eot?#iefix")format("embedded-opentype"),
 	url("fonts/OpenSans/OpenSans-SemiBold.ttf") format("truetype");

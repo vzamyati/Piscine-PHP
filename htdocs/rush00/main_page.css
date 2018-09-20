@@ -1,12 +1,13 @@
 body {
 	font-family: Cinzel-Regular;
+	padding-right: 2%;
 }
 
 .header {
 	height: 100px;
 	background-color: #ffffff;
 	display: flex;
-/*	justify-content: space-between;*/
+	justify-content: space-between;
 	padding: 0 30px;
 	border-bottom: 1px solid #ececec;
 	align-items: center;
@@ -20,12 +21,12 @@ body {
 
 .header_menu__item {
 	line-height: 80px;
-/*	border: 1px solid red;*/
 	padding: 0 20px;
 }
 
 .header_menu__link {
 	text-decoration: none;
+	color: #B8141F;
 }
 
 .header_menu2 {
@@ -35,12 +36,12 @@ body {
 
 .header_menu2__item {
 	line-height: 80px;
-/*	border: 1px solid red;*/
 	padding: 0 20px;
 }
 
 .header_menu2__link {
 	text-decoration: none;
+	color: #B8141F;
 }
 
 .logo img {
@@ -49,9 +50,15 @@ body {
 
 .product-wrapper {
 	display: block;
+	position: relative;
 	width: 100%;
 	height: 450px;
 	float: left;
+	padding-top: 15px;
+}
+
+.product-wrapper:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
 }
 
 .product-wrapper p {
@@ -63,7 +70,7 @@ body {
 	overflow: hidden;
 	padding-right: 81px;
     padding-left: 50px;
-    text-align: center
+    text-align: center;
 }
 
 @media only screen and (min-width: 450px) {
@@ -97,6 +104,7 @@ body {
 .product {
 	display: block;
 	position: relative;
+	left: 3%;
 	margin: 0 20px 20px 0;
 	text-decoration: none;
 	color: #2E490D;
@@ -113,6 +121,7 @@ body {
 .product-photo {
 	position: relative;
 	overflow: hidden;
+
 }
 
 .product-photo img {
