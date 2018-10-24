@@ -1,1 +1,1 @@
-DELETE FROM ft_table LIMIT 5;
+DELETE FROM db_vzamyati.ft_table LIMIT 5;

@@ -1,6 +1,5 @@
 body {
 	background-color: #ffffff;
-	font-family: ;
 	font-size: 14px;
 	line-height: 1.5em;
 	font-family: Cinzel-Regular;
@@ -24,44 +23,50 @@ input {
 }
 
 p {
+	color: Silver;
 	line-height: 1.5em;
-	margin: 0;
+	margin-left: 13px;
 }
 
 form {
 	width: 320px;
-	height: 300px;
-	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+	height: 260px;
+	box-shadow: 0 0 18px 4px rgba(0,0,0,0.1);
 	padding-top: 37px;
 }
 
-#login {
-	margin: 200px auto;
+.block {
+	margin-top: 100px;
+}
+
+.header {
+	width: 280px;
+	margin: 0px auto;
+	color: #941E3A;
+	left: 10px;
+	background: #FFB8C8;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+	position: relative;
+}
+
+#authors {
+	margin: 0px auto;
 	width: 300px;
 }
 
-#login form input {
+form button {
+	font-family: Cinzel-Regular;
 	height: 50px;
 	outline:none;
 }
 
-#login form input[type="text"], input[type="password"] {
-	background-color: #FFB8C8;
-	border: 1px solid #CC93A0;
-	border-radius: 3px;
-	color: #941E3A;
-	margin-bottom: 1em;
-	padding: 0 16px;
-	width: 198px;
-	margin-left: 13%;
-	margin-top: 10px;
-}
-
-#login form input:focus {
+form button:focus {
 	color:#34090C;
 }
 
-#login form input[type="submit"] {
+form button[type="submit"] {
 	border-radius: 3px;
 	background-color: #FFB8C8;
 	border: 1px solid #CC93A0;
@@ -73,13 +78,13 @@ form {
 	padding: 0 16px;
 	width: 228px;
 	margin-left: 13%;
-    margin-top: 5%;
+	margin-top: 5%;
 }
 
-#login form input[type="submit"]:hover {
+form button[type="submit"]:hover {
 	background-color: #FF6B8D;
 }
 
-#login > p {
+#delete > p {
 	text-align: center;
 }

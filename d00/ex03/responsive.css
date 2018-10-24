@@ -1,5 +1,5 @@
 table {
-	width: 95%;
+	width: 100%;
 	table-layout: fixed;
 	border-spacing: 0.3vw;
 	font-size: 1.4vw;
@@ -25,6 +25,7 @@ div {
 h1 {
 	font-size: 3vw;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 h2 {
@@ -44,47 +45,58 @@ td {
 }
 
 td.non-metal {
-	background: gray;
+	background: linear-gradient(to bottom left, #808080 0%, #ffffff 125%);
+	border: 1px solid gray;
 }
 
 td.noble-gas {
-	background: dodgerblue;
+	background: linear-gradient(to bottom left, #1e90ff 0%, #ffffff 125%);
+	border: 1px solid gray;
 }
 
 td.alkali-metal {
-	background: orange;
+	background: linear-gradient(to bottom left, #ffa500 0%, #ffffff 125%);
+	border: 1px solid gray;
 }
 
 td.alkaline-earth-metal {
-	background: firebrick;
+	background: linear-gradient(to bottom left, #b22222 0%, #ffffff 125%);
+	border: 1px solid gray;
 }
 
 td.metalloid {
-	background: yellowgreen;
+	background: linear-gradient(to bottom left, #9acd32 0%, #ffffff 125%);
+	border: 1px solid gray;
 }
 
 td.halogen{
-	background: darkturquoise;
+	background: linear-gradient(to bottom left, #00ced1 0%, #ffffff 125%);
+	border: 1px solid gray;
 }
 
 td.metal{
-	background: forestgreen;
+	background: linear-gradient(to bottom left, #228b22 0%, #ffffff 125%);
+	border: 1px solid gray;
 }
 
 td.transition-metal{
-	background: gold;
+	background: linear-gradient(to bottom left, #ffd700 0%, #ffffff 125%);
+	border: 1px solid gray;
 }
 
 td.lanthanide {
-	background: mediumorchid;
+	background: linear-gradient(to bottom left, #ba55d3 0%, #ffffff 125%);
+	 border: 1px solid gray;
 }
 
 td.actinide {
-	background: plum;
+	background: linear-gradient(to bottom left, #dda0dd 0%, #ffffff 125%);
+	border: 1px solid gray;
 }
 
 td.text {
 	background: white;
+	border: 1px solid gray;
 }
 
 p {

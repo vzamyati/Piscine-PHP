@@ -11,7 +11,8 @@
 		.responsive {width: 15%;
 			height: auto;}
 		h1 {font-size: 3vw;
-			text-align: center;}
+			text-align: center;
+			text-transform: uppercase;}
 		h2 {font-size: 2vw;
 			text-align: center;
 			margin: 0px;}
@@ -19,17 +20,17 @@
 			min-width: auto;}
 		td {font-size: 1.4vw;
 			min-width: auto;}
-		td.non-metal {background: gray;}
-		td.noble-gas {background: dodgerblue;}
-		td.alkali-metal {background: orange;}
-		td.alkaline-earth-metal {background: firebrick;}
-		td.metalloid {background: yellowgreen;}
-		td.halogen{background: darkturquoise;}
-		td.metal{background: forestgreen;}
-		td.transition-metal{background: gold;}
-		td.lanthanide {background: mediumorchid;}
-		td.actinide {background: plum;}
-		td.text {background: white;}
+		td.non-metal {background: linear-gradient(to bottom left, #808080 0%, #ffffff 125%); border: 1px solid gray;}
+		td.noble-gas {background: linear-gradient(to bottom left, #1e90ff 0%, #ffffff 125%); border: 1px solid gray;}
+		td.alkali-metal {background: linear-gradient(to bottom left, #ffa500 0%, #ffffff 125%); border: 1px solid gray;}
+		td.alkaline-earth-metal {background: linear-gradient(to bottom left, #b22222 0%, #ffffff 125%); border: 1px solid gray;}
+		td.metalloid {background: linear-gradient(to bottom left, #9acd32 0%, #ffffff 125%); border: 1px solid gray;}
+		td.halogen{background: linear-gradient(to bottom left, #00ced1 0%, #ffffff 125%); border: 1px solid gray;}
+		td.metal{background: linear-gradient(to bottom left, #228b22 0%, #ffffff 125%); border: 1px solid gray;}
+		td.transition-metal{background: linear-gradient(to bottom left, #ffd700 0%, #ffffff 125%); border: 1px solid gray;}
+		td.lanthanide {background: linear-gradient(to bottom left, #ba55d3 0%, #ffffff 125%); border: 1px solid gray;}
+		td.actinide {background: linear-gradient(to bottom left, #dda0dd 0%, #ffffff 125%); border: 1px solid gray;}
+		td.text {background: white; border: 1px solid gray;}
 		p {font-size: 0.8vw;
 			margin: 10px;}
 		p.name{text-align: center;
@@ -41,22 +42,9 @@
 	</style>
 </head>
 <body>
-	<h1>Periodic Table Of The Elements</h1>
+	<h1>The periodic table of elements</h1>
 	<div><img class="responsive" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCJyJhDE2OQI8SxVXONXcllUDOUBX-IT9meRo3sCHOrnlUdsCW" alt=""></div>
 	<br>
-	<table contenteditable="true"; align="center";>
-		<tr>
-			<td class="non-metal"><p class="name">NON-METAL</p></td>
-			<td class="noble-gas"><p class="name">NOBLE GAS</p></td>
-			<td class="alkali-metal"><p class="name">ALKALI METAL</p></td>
-			<td class="alkaline-earth-metal"><p class="name">ALKALINE EARTH METAL</p></td>
-			<td class="metalloid"><p class="name">METALLOID</p></td>
-			<td class="halogen"><p class="name">HALLOGEN</p></td>
-			<td class="metal"><p class="name">METAL</p></td>
-			<td class="transition-metal"><p class="name">TRANSITION METAL</p></td>
-			<td class="lanthanide"><p class="name">LANTHANIDE</p></td>
-			<td class="actinide"><p class="name">ACTINIDE</p></td>
-		</tr>
 	<table contenteditable="true"; align="center";>
 		<tr>
 			<td class="non-metal"><p class="mass">1.0079</p><h2>H</h2><p class="name">HYDROGEN</p><p class="num">1</p></td>
@@ -208,6 +196,20 @@
 			<td class="actinide"><p class="mass">(258)</p><h2>Md</h2><p class="name">MENDELEVIUM</p><p class="num">101</p></td>
 			<td class="actinide"><p class="mass">(259)</p><h2>No</h2><p class="name">NOBELIUM</p><p class="num">102</p></td>
 			<td class="actinide"><p class="mass">(262)</p><h2>Lr</h2><p class="name">LAWRENCIUM</p><p class="num">103</p></td>
+		</tr>
+	<table contenteditable="true"; align="center";>
+		<br />
+		<tr>
+			<td class="non-metal"><p class="name">NON-METAL</p></td>
+			<td class="noble-gas"><p class="name">NOBLE GAS</p></td>
+			<td class="alkali-metal"><p class="name">ALKALI METAL</p></td>
+			<td class="alkaline-earth-metal"><p class="name">ALKALINE EARTH METAL</p></td>
+			<td class="metalloid"><p class="name">METALLOID</p></td>
+			<td class="halogen"><p class="name">HALLOGEN</p></td>
+			<td class="metal"><p class="name">METAL</p></td>
+			<td class="transition-metal"><p class="name">TRANSITION METAL</p></td>
+			<td class="lanthanide"><p class="name">LANTHANIDE</p></td>
+			<td class="actinide"><p class="name">ACTINIDE</p></td>
 		</tr>
 	</table>
 </body>

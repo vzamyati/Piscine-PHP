@@ -1,1 +1,1 @@
-SELECT REVERSE(SUBSTR(phone_number, 2)) AS 'rebmunenohp' FROM distrib WHERE phone_number LIKE '05%';
+SELECT REVERSE(SUBSTR(phone_number, 2)) AS 'rebmunenohp' FROM db_vzamyati.distrib WHERE phone_number LIKE '05%';

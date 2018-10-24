@@ -1,0 +1,90 @@
+body {
+	background-color: #ffffff;
+	font-size: 14px;
+	line-height: 1.5em;
+	font-family: Cinzel-Regular;
+}
+
+a {
+	color: #941E3A;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+input {
+	border: none;
+	font-family: Cinzel-Regular;
+	font-size: 14px;
+	line-height: 1.5em;
+	padding: 0;
+}
+
+p {
+	color: Silver;
+	line-height: 1.5em;
+	margin-left: 13px;
+}
+
+form {
+	width: 320px;
+	height: 260px;
+	box-shadow: 0 0 18px 4px rgba(0,0,0,0.1);
+	padding-top: 37px;
+}
+
+.block {
+	margin-top: 100px;
+}
+
+.header {
+	width: 280px;
+	margin: 0px auto;
+	color: #941E3A;
+	left: 10px;
+	background: #FFB8C8;
+	text-align: center;
+	border-radius: 10px 10px 0px 0px;
+	padding: 20px;
+	position: relative;
+}
+
+#account {
+	margin: 0px auto;
+	width: 300px;
+}
+
+form button {
+	font-family: Cinzel-Regular;
+	height: 50px;
+	outline:none;
+}
+
+form button:focus {
+	color:#34090C;
+}
+
+form button[type="submit"] {
+	border-radius: 3px;
+	background-color: #FFB8C8;
+	border: 1px solid #CC93A0;
+	color: #941E3A;
+	font-weight: bold;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	cursor:pointer;
+	padding: 0 16px;
+	width: 228px;
+	margin-left: 13%;
+	margin-top: 5%;
+}
+
+form button[type="submit"]:hover {
+	background-color: #FF6B8D;
+}
+
+#account > p {
+	text-align: center;
+}

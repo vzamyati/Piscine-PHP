@@ -1,1 +1,1 @@
-SELECT COUNT(*) AS 'nb_susc', FLOOR(AVG(price)) AS 'av_susc', MOD(SUM(duration_sub), 42) as 'ft' FROM subscription;
+SELECT COUNT(*) AS 'nb_susc', FLOOR(AVG(price)) AS 'av_susc', MOD(SUM(duration_sub), 42) as 'ft' FROM db_vzamyati.subscription;

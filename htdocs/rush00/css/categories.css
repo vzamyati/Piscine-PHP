@@ -1,0 +1,168 @@
+html, body {
+	font-family: Cinzel-Regular;
+	width: 100%;
+}
+
+.header {
+	height: 100px;
+	background-color: #ffffff;
+	display: flex;
+	padding: 0 30px;
+	align-items: center;
+}
+
+.header_menu {
+	list-style: none;
+	height: 20px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.header_menu__item {
+	float: left;
+	width: 200px;
+	height: 30px;
+	line-height: 25px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.header_menu__link {
+	text-decoration: none;
+	display: block;
+	background-color: white;
+	opacity: .8;
+	color: #B8141F;
+}
+
+.header_menu__link:hover {
+	background-color: #FCDEE0;
+}
+
+
+.header_menu2 {
+	list-style: none;
+	display: flex;
+}
+
+.header_menu2__item {
+	line-height: 80px;
+	padding: 0 20px;
+}
+
+.header_menu2__link {
+	text-decoration: none;
+	color: #B8141F;
+}
+
+.logo img {
+	width: 200px;
+}
+
+.product-wrapper {
+	display: block;
+	position: relative;
+	height: 420px;
+	float: left;
+	top: 100px;
+	padding-top: 15px;
+}
+
+.product-wrapper:hover {
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.product-wrapper p {
+	position: relative;
+	margin: 0px;
+	font-size: 1em;
+	line-height: 1.4em;
+	height: 1.5em;
+	overflow: hidden;
+    text-align: center;
+}
+
+/*@media only screen and (min-width: 450px) {
+	.product-wrapper {
+		width: 80%;
+	}
+}*/
+
+@media only screen and (min-width: 768px) {
+	.product-wrapper {
+		width: 24%;
+	}
+}
+/*
+@media only screen and (min-width: 1000px) {
+	.product-wrapper {
+		width: 25%;
+	}
+}*/
+
+.item {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 30%;
+	height: 500px;
+	float: left;
+	margin: 15px;
+}
+
+.product {
+	display: block;
+	position: relative;
+	left: 3%;
+	margin: 0 0px 20px 0;
+	text-decoration: none;
+	color: #2E490D;
+	z-index: 0;
+	height: 300px;
+}
+
+.products {
+	list-style: none;
+	margin: 0 -20px 0 300px;
+	padding: 0;
+}
+
+.product-photo {
+	position: relative;
+	overflow: hidden;
+
+}
+
+.product-photo img {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 50px;
+    right: 50px;
+	max-width: 82%;
+	max-height: 100%;
+	clip: rect(0px 242px 300px 0px);
+	margin: auto;
+	transition: transform .4s ease-out;
+}
+
+button {
+	font-family: Cinzel-Regular;
+	height: 20px;
+	outline:none;
+	border-radius: 3px;
+	background-color: #FFB8C8;
+	border: 1px solid #CC93A0;
+	color: #941E3A;
+	font-weight: bold;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+	cursor:pointer;
+	padding: 0 16px;
+	width: 145px;
+	margin-left: 30%;
+}
+
+button:hover {
+	background-color: #FF6B8D;
+}
